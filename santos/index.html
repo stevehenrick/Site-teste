@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OI MÔ </title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    
+    <div> 
+        <h1> Oie Namorada :) </h1>
+    </div>
+
+
+   
+    <div class="card" id="mainCard"> 
+
+        <div class="imagem">
+                <p>Me dá essa camisa ? </p>
+                <img id="imagemSantos" src="imgs/camisaSantosPreta.png" alt="">
+                
+        </div>
+                    
+        <div class="botoes" >
+
+                <!--BOTAO SIM-->
+
+                <button onclick="teAmo()" id="yes" class="sim">SIIM
+
+                    <span class="material-symbols-outlined">
+                        sentiment_satisfied
+                    </span>
+
+                </button>
+
+                
+                <!--BOTAO NÃO-->
+
+                <button onmouseover="moverAleatoriamente()" id="no" class="nao">NÃO!
+                    <span class="material-symbols-outlined">
+                        sentiment_sad
+                    </span>
+                </button>
+        </div>
+
+    
+    </div>
+
+
+
+    
+
+    <div style="display: flex; justify-content: center; align-items: center;" class="obg" id="obrigado">        
+    </div>
+
+   
+    <script src="main.js"></script>
+</body>
+</html>    

@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 203, 203);
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ 
+
+.card{
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    text-align: center;
+     
+
+
+    width: 40%;
+    
+    
+
+}
+
+ 
+
+
+.imagem p {
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 20px;
+
+     
+
+    
+
+}
+
+#imagemSantos{
+    
+    width: 150px;
+
+    border-radius: 15px;
+}
+
+.botoes{
+    
+
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.sim{
+    margin-right: 50px;
+    padding: 10px 15px;
+    background-color: rgb(164, 199, 111);
+
+    border: none;
+
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+  
+    cursor: pointer;
+}
+
+.sim a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+
+    
+}
+
+
+.sim:hover{
+    padding: 20px;
+    
+    
+    box-shadow: 2px 5px greenyellow ;
+}
+
+.sim span{
+    position: relative;
+    top: 5px;
+    
+
+    font-size: 20px;
+}
+
+
+.nao{
+    background-color: rgb(201, 45, 45);
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+
+    color: darkred;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.nao:hover{
+    padding: 20px;
+    box-shadow: 2px 5px darkred;
+}
+
+
+.nao span{
+    position: relative;
+    top: 5px;
+    
+
+    font-size: 20px;
+}
+
+
